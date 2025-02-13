@@ -1,0 +1,511 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+
+    height: 100%;
+    width: 100%;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: #fdca7c;
+
+}
+i{
+
+    margin-right: 10px;
+    color: rgb(10, 46, 253);
+
+}
+
+i:hover{
+
+    color: wheat;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+img{
+    height: 4vmax;
+    margin-left: 30px;
+   cursor: pointer;
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+    padding: 30px;
+    color: rgb(51, 28, 255);
+}
+
+a:hover {
+
+    color: black;
+border: 2px solid rgb(255, 255, 255);
+   border-radius: 30px;
+   font-size: 1.5vmax;
+
+}
+
+.menu{
+    display: none;
+}
+
+button{
+
+    border-radius: 20px;
+    background-color: blue;
+    font-size: 1.2vmax;
+    color: rgb(255, 246, 230);
+}
+
+
+@media (max-width: 764px) {
+
+    header{
+        height: 60px;
+    }
+
+    nav a{
+        display: none;
+    }
+
+    .menu{
+        display: inline;
+    }
+
+    nav i{
+        display: none;
+    }
+
+  button{
+
+    display: none;
+
+  } 
+}
+
+main{
+
+    height: 100%;
+    width: 100%;
+    
+}
+.main{
+    background-image: url(/img/hero-carousel-1\ \(1\).jpg);
+    height: 100%;
+    width: 100%;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: blue;
+    align-items: center;
+    padding-top: 5vmax;
+    
+}
+
+h2:hover{
+
+    color: black;
+ }
+
+ p{
+
+    padding-top: 40px;
+    font-size: 20px;
+    padding-left: 60px;
+    padding-right: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(84, 96, 192);
+ }
+
+ .mbutton{
+
+    height: 60px;
+    width: 7vmax;
+    border: 2px solid white;
+    
+    border-radius: 20px;
+    align-items: center;
+ margin-top: 1vmax;
+ margin-left: 80vmax;
+
+ }
+
+ .mbutton:hover{
+
+    font-size: 20px;
+    color: brown;
+    background-color: rgb(81, 69, 69);
+    border-color: #fdca7c;
+    box-shadow: 5px 5px 5px rgb(121, 218, 218);
+ }
+@media (max-width: 764px) {
+
+    .main{
+        height: 100%;
+        width: 100vmax;
+
+    }
+
+    h2{
+        flex-direction: column;
+    }
+
+    .mbutton{
+
+        flex-direction: column;
+    }
+    
+}
+
+.main2{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100%-80px);
+    width: 100%;
+
+
+}
+
+.left{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 55%;
+    flex-direction: column;
+    margin-left: 4vmax;
+    margin-right: 4vmax;
+
+    background-color: #fdca7c;
+
+}
+
+.left h1{
+
+    margin: 20px;
+}
+
+.right{
+
+    height: 100%;
+    width: 50%;
+}
+
+.right img{
+
+    height: 90%;
+    width: 90%;
+     padding-right: 10px;
+}
+
+.a2{
+
+    padding-bottom: 50px;
+    color: black;
+}
+
+.b1{
+    
+     margin-left:12vh;
+     margin-top: 10vh;
+     display: flex;
+     justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.box1{
+
+    height: 20vmax;
+    width: 26vmax;
+    background-color: blue;
+    border: 2px solid red;
+   
+    background-image: url(/img/KartarCoachingCentre-Patna-BR.jpeg);
+}
+.box2{
+
+    height: 20vmax;
+    width: 26vmax;
+    background-color: blue;
+    border: 2px solid red;
+    background-image: url(/img/EliteInstitute-Patna-BR.jpeg);
+}
+.box3{
+margin: 10px;
+    height: 20vmax;
+    width: 26vmax;
+    background-color: blue;
+    border: 2px solid red;
+    background-image: url(/img/ParamountCoachingCentrePvtLtd-Patna-BR.jpeg);
+}
+
+.b12{
+    
+    margin-left:12vh;
+    margin-top: 10vh;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   justify-content: space-between;
+}
+.boxa{
+
+   height: 20vmax;
+   width: 26vmax;
+   background-color: blue;
+   border: 2px solid red;
+   background-image: url(/img/c10.jpg);
+}
+.boxb{
+
+   height: 20vmax;
+   width: 26vmax;
+   background-color: blue;
+   border: 2px solid red;
+   background-image: url(/img/c9.jpg);
+}
+.boxc{
+margin: 10px;
+   height: 20vmax;
+   width: 26vmax;
+   background-color: blue;
+   border: 2px solid red;
+
+   background-repeat: no-repeat;
+   background-image: url(/img/c12.jpg);
+  
+}
+
+.b13{
+    
+    margin-left:12vh;
+    margin-top: 5vh;
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+}
+
+
+.boxz{
+margin: 10px;
+   height: 20vmax;
+   width: 26vmax;
+   background-color: blue;
+   border: 2px solid red;
+   background-image: url(/img/c11.png);
+   border-radius: 30px;
+}
+
+.f1{
+
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+
+}
+
+.ff{
+ height: 50%;
+ width: 100%;
+
+   padding: 30px;
+    background-color: rgb(255, 172, 48);
+display: flex;
+
+justify-content: space-around;
+  
+}
+
+.f2{
+
+    height: 100%;
+    width: 30%;
+    margin: 20px;
+}
+
+.f3{
+
+    height: 100%;
+    width: 30%;
+   font-size: 20px;
+}
+
+.f3:hover{
+    color: blue;
+    cursor: pointer;
+} 
+
+@media (max-width: 764px) {
+    .price-table {
+        flex-direction: column;
+    }
+
+    .price-plan {
+        width: 100%;
+    }
+
+    .form-container {
+        flex-direction: column;
+    }
+
+    .signin-signup h1 {
+        font-size: 2rem;
+        margin-bottom: 30px;
+    }
+
+    .form-container form {
+        width: 100%;
+    }
+
+    .about p {
+        font-size: 1rem;
+        padding: 0 10px;
+    }
+
+    .gallery-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+.about {
+    text-align: center;
+    padding: 50px;
+}
+
+.about h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Gallery Page Styles */
+.gallery {
+    padding: 50px;
+}
+
+.gallery h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+
+
+/* Price Page Styles */
+.price {
+    text-align: center;
+    padding: 50px;
+}
+
+.price h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.price-table {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.price-plan {
+    background-color: #fdca7c;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    margin: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.price-plan h2 {
+    font-size: 1.5rem;
+    color: blue;
+}
+
+.price-plan p {
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* Sign In / Sign Up Form Styles */
+.signin-signup {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 900px;
+    gap: 50px;
+}
+
+form {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    width: 48%;
+}
+
+form input {
+    padding: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    padding: 12px 15px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    width: 100%;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(33, 33, 33);
+}
+
