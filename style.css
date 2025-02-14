@@ -7,6 +7,8 @@ html, body{
 
     height: 100%;
     width: 100%;
+
+  
 }
 
 
@@ -17,7 +19,9 @@ nav{
     justify-content: center;
     padding: 10px;
     justify-content: space-between;
-    background-color: #fdca7c;
+    background-color: #0a363d;
+    overflow: hidden;
+
 
 }
 i{
@@ -30,29 +34,40 @@ i{
 i:hover{
 
     color: wheat;
-    font-size: 30px;
+    font-size: px;
     cursor: pointer;
 }
-
-img{
-    height: 4vmax;
-    margin-left: 30px;
+.logo{
+    height: 2vh;
+   
    cursor: pointer;
+   padding: 1vh;
+   padding-bottom: 11vh;
+   
 }
 
-nav a{
+.logo:hover{
+display: block;
+}
+.box{
     display: inline;
     text-decoration: none;
-    padding: 30px;
-    color: rgb(51, 28, 255);
+    padding: 5vh;
+    color: rgb(224, 224, 224);
+    justify-content: space-around;
+    font-size: 3vh;
+ 
 }
 
-a:hover {
+.box:hover {
 
-    color: black;
-border: 2px solid rgb(255, 255, 255);
-   border-radius: 30px;
-   font-size: 1.5vmax;
+color: black;
+border: 2px solid rgb(22, 5, 119);
+   border-radius: 2vh;
+   font-size: 4vh;
+   background-color: white;
+   height: 2vh;
+   width: 4vw;
 
 }
 
@@ -60,39 +75,38 @@ border: 2px solid rgb(255, 255, 255);
     display: none;
 }
 
-button{
 
-    border-radius: 20px;
-    background-color: blue;
+.fab-icon{
+
+   margin-right: -20vh;
+ background-color: rgb(255, 255, 255);
+   font-size: 3vh;
+
+}
+
+.sign{
+ height: 4vh;
+ width: 4vw;
+    border-radius: 3vh;
+    background-color: rgb(255, 255, 255);
     font-size: 1.2vmax;
-    color: rgb(255, 246, 230);
+    color: rgb(76, 48, 0);
+    text-decoration: none;
+    margin-right: 4vh;
+}
+
+.sign:hover{
+    height: 10vh;
+    width: 12vh;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to left, rgb(180, 137, 137), rgb(251, 190, 59));
+    font-size:4vh ;
+    text-decoration: none;
+
 }
 
 
-@media (max-width: 764px) {
 
-    header{
-        height: 60px;
-    }
-
-    nav a{
-        display: none;
-    }
-
-    .menu{
-        display: inline;
-    }
-
-    nav i{
-        display: none;
-    }
-
-  button{
-
-    display: none;
-
-  } 
-}
 
 main{
 
@@ -104,9 +118,10 @@ main{
     background-image: url(/img/hero-carousel-1\ \(1\).jpg);
     height: 100%;
     width: 100%;
+    overflow: hidden;
 }
 
-h2{
+.top{
     display: flex;
     justify-content: center;
     font-size: 50px;
@@ -121,7 +136,7 @@ h2:hover{
     color: black;
  }
 
- p{
+ .top1{
 
     padding-top: 40px;
     font-size: 20px;
@@ -135,43 +150,28 @@ h2:hover{
 
  .mbutton{
 
-    height: 60px;
-    width: 7vmax;
+    height: 4vh;
+    width: 6vw;
     border: 2px solid white;
+
     
     border-radius: 20px;
     align-items: center;
- margin-top: 1vmax;
+ margin-top: 25%;
  margin-left: 80vmax;
 
  }
 
  .mbutton:hover{
 
-    font-size: 20px;
-    color: brown;
-    background-color: rgb(81, 69, 69);
-    border-color: #fdca7c;
-    box-shadow: 5px 5px 5px rgb(121, 218, 218);
+    height: 4vh;
+    width: 6vw;
+    font-size: 2vh;
+    color: rgb(243, 243, 243);
+    background-color: rgb(25, 11, 178);
+    border-color: #f515e9;
+    box-shadow: 5px 5px 8px rgb(121, 218, 218);
  }
-@media (max-width: 764px) {
-
-    .main{
-        height: 100%;
-        width: 100vmax;
-
-    }
-
-    h2{
-        flex-direction: column;
-    }
-
-    .mbutton{
-
-        flex-direction: column;
-    }
-    
-}
 
 .main2{
 
@@ -199,6 +199,10 @@ h2:hover{
 
 }
 
+.left:hover{
+    color: blue;
+  }
+
 .left h1{
 
     margin: 20px;
@@ -224,90 +228,148 @@ h2:hover{
 }
 
 .b1{
-    
-     margin-left:12vh;
-     margin-top: 10vh;
+    width: 100%;
+  
+     margin-top: 2vh;
      display: flex;
      justify-content: center;
     align-items: center;
     justify-content: space-between;
 }
 .box1{
-
+    margin-left: 7vh;
+ width: 30%;
     height: 20vmax;
     width: 26vmax;
     background-color: blue;
     border: 2px solid red;
+    border-radius: 2vh;
    
-    background-image: url(/img/KartarCoachingCentre-Patna-BR.jpeg);
+   
 }
-.box2{
 
+.box1:hover{
+
+  
+
+}
+
+.k1{
+
+    font-size: 1.5vh;
+}
+
+.call{
+    position: right;
+    margin-left: 80%;
+    background-color: #078400;
+    color: white;
+}
+
+.call:hover{
+
+    border-color: #f515e9;
+    font-size: 3vh;
+    width: 30%;
+}
+
+
+.box2{
+    width:calc(40%-5px);
     height: 20vmax;
-    width: 26vmax;
     background-color: blue;
     border: 2px solid red;
-    background-image: url(/img/EliteInstitute-Patna-BR.jpeg);
+  
 }
 .box3{
-margin: 10px;
+    padding-right: 6vh;
+    width: 30%;
+margin-right: 3vh;
     height: 20vmax;
-    width: 26vmax;
+  
     background-color: blue;
     border: 2px solid red;
-    background-image: url(/img/ParamountCoachingCentrePvtLtd-Patna-BR.jpeg);
 }
 
 .b12{
     
-    margin-left:12vh;
-    margin-top: 10vh;
+    width: 100%;
+  
+    margin-top: 2vh;
     display: flex;
     justify-content: center;
    align-items: center;
    justify-content: space-between;
 }
 .boxa{
-
-   height: 20vmax;
-   width: 26vmax;
-   background-color: blue;
-   border: 2px solid red;
+margin-top: 7vh;
+    margin-left: 7vh;
+ width: 30%;
+    height: 20vmax;
+    width: 26vmax;
+    background-color: blue;
+    border: 2px solid red;
+    border-radius: 2vh;
    background-image: url(/img/c10.jpg);
 }
 .boxb{
-
-   height: 20vmax;
-   width: 26vmax;
-   background-color: blue;
-   border: 2px solid red;
+    margin-top: 7vh;
+    width:calc(35%);
+    height: 20vmax;
+    background-color: blue;
+    border: 2px solid red;
    background-image: url(/img/c9.jpg);
 }
 .boxc{
-margin: 10px;
-   height: 20vmax;
-   width: 26vmax;
-   background-color: blue;
-   border: 2px solid red;
-
-   background-repeat: no-repeat;
+    margin-top: 7vh;
+    padding-right: 6vh;
+    width: 30%;
+margin-right: 3vh;
+    height: 20vmax;
+  
+    background-color: blue;
+    border: 2px solid red;
    background-image: url(/img/c12.jpg);
   
 }
 
+.calla{
+    position: right;
+    margin-left: 80%;
+    background-color: #078400;
+    color: white;
+    margin-top: 44vh;
+}
+
+.calla:hover{
+
+    border-color: #f515e9;
+    font-size: 3vh;
+    width: 30%;
+}
+
+.k2{
+    margin-top: 44vh;
+    margin-bottom: -40vh;
+    font-size: 2vh;
+
+}
+
 .b13{
-    
-    margin-left:12vh;
-    margin-top: 5vh;
+    width: 100%;
+   height: 440px;
+    margin-top: 12vh;
     display: flex;
     justify-content: center;
    align-items: center;
+   background-image:linear-gradient(  blue,  rgb(236, 167, 93)) ;
    
 }
 
 
 .boxz{
-margin: 10px;
+margin-top: 8vh ;
+margin-bottom: 2vh;
    height: 20vmax;
    width: 26vmax;
    background-color: blue;
@@ -315,8 +377,20 @@ margin: 10px;
    background-image: url(/img/c11.png);
    border-radius: 30px;
 }
+.boxx{
+    margin-top: 7vh;
+    padding-left: 2vh;
+    margin-left: 2vh;
+    width:calc(30%);
+    height: 20vmax;
+   padding-left: 4vp;
+
+    
+}
+
 
 .f1{
+
 
     color: rgb(0, 0, 0);
     font-size: 30px;
@@ -324,6 +398,7 @@ margin: 10px;
 }
 
 .ff{
+    margin-top: 1vh;
  height: 50%;
  width: 100%;
 
@@ -335,13 +410,22 @@ justify-content: space-around;
   
 }
 
+.ft{
+
+    font-size: 3vh;
+}
+
 .f2{
 
     height: 100%;
     width: 30%;
     margin: 20px;
 }
+.ft1{
 
+
+color: #b76e00;
+}
 .f3{
 
     height: 100%;
@@ -428,63 +512,32 @@ justify-content: space-around;
 
 
 
-/* Price Page Styles */
-.price {
-    text-align: center;
-    padding: 50px;
-}
-
-.price h1 {
-    font-size: 3rem;
-    margin-bottom: 30px;
-}
-
-.price-table {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.price-plan {
-    background-color: #fdca7c;
-    padding: 20px;
-    width: 30%;
-    border-radius: 10px;
-    margin: 15px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.price-plan h2 {
-    font-size: 1.5rem;
-    color: blue;
-}
-
-.price-plan p {
-    font-size: 1.2rem;
-    color: black;
-}
 
 /* Sign In / Sign Up Form Styles */
 .signin-signup {
     display: flex;
     justify-content: center;
     padding: 50px;
+    align-items: center;
+    
 }
 
-.form-container {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 900px;
-    gap: 50px;
+.up{
+
+    align-items: center;
+    margin-left: 35vh;
+    margin-top: 15vh;
+    margin-bottom: -25vh;
 }
+
+
 
 form {
     background-color: #f4f4f4;
     padding: 20px;
     border-radius: 10px;
     width: 48%;
+    align-items: center;
 }
 
 form input {
