@@ -118,7 +118,6 @@ main{
     background-image: url(/img/hero-carousel-1\ \(1\).jpg);
     height: 100%;
     width: 100%;
-    overflow: hidden;
 }
 
 .top{
@@ -248,11 +247,7 @@ h2:hover{
    
 }
 
-.box1:hover{
 
-  
-
-}
 
 .k1{
 
@@ -303,7 +298,7 @@ margin-right: 3vh;
 }
 .boxa{
 margin-top: 7vh;
-    margin-left: 7vh;
+margin-left: 7vh;
  width: 30%;
     height: 20vmax;
     width: 26vmax;
@@ -472,9 +467,39 @@ color: #b76e00;
 
 .about {
     text-align: center;
-    padding: 50px;
+    padding: 5vh;
 }
 
+.about-text{
+
+    font-size: 3vh;
+  padding-top: 10vh;
+  padding-left: 50%;
+  padding-bottom: 3vh;
+}
+
+.about-text:hover{
+
+
+  color: #f515e9;
+  font-size: 4vh;
+
+}
+
+
+.about-content{
+
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-around;
+}
+
+.left{
+    width: 50%;
+    padding-top: 8vh;
+}
 .about h1 {
     font-size: 3rem;
     margin-bottom: 20px;
@@ -484,7 +509,7 @@ color: #b76e00;
     font-size: 1.2rem;
     color: #444;
     line-height: 1.6;
-    margin-bottom: 20px;
+
 }
 
 /* Gallery Page Styles */
@@ -562,3 +587,15 @@ form button:hover {
     background-color: rgb(33, 33, 33);
 }
 
+.our-team{
+
+    padding-top: 10vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 50vh;
+}
+
+.footer{
+    padding-top: 220vh;
+
+}

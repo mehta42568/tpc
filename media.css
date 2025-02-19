@@ -1,4 +1,4 @@
-@media (max-width: 479px) {
+@media (max-width: 768px) {
 
 
     .box{
@@ -7,14 +7,13 @@
     }
     .menu{
         display: inline;
-        padding-right: 20px;
+       
     }
 
     .main{
-      height:480px;
-      width: 460px;
+      height: 100%;
+      width: 100%;
      opacity: 80%;
-     padding-top: -6vh;
       
     }
 
@@ -28,6 +27,7 @@
     .top1{
       color: rgb(42, 17, 202);
       font-weight: bold;
+    font-size: 2vh;
     }
 
 
@@ -100,27 +100,32 @@
 
 }
 .boxa{
-  flex-direction: column;
-  width: 100%;
+
+  width: 85%;
   margin-right: 2vh;
+  margin-left: 2vh;
+  height:50vh;
 
 
 
 }
 .boxb{
-  width: 100%;
-  margin-top: 5vh;
-  height: 150%;
- gap: 12vh;
+  margin-top: 1vh;
+  width:90%;
+  height:50vh;
+    border-radius: 4vh;
 
 }
 
 .boxc{
-  width: 100%;
-  margin-top: 5vh;
-  height: 8vh;
- gap: 12vh;
-
+  margin-top: 1vh;
+  padding-right: 6vh;
+  margin-right: 2vh;
+  margin-left: 2vh;
+  width: 90%;
+margin-right: 3vh;
+  height:50vh;
+  border-radius: 3vh;
 }
 
 
@@ -150,5 +155,7 @@
 h1{
   flex-direction: column;
 }
+
+
 
 }
